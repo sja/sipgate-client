@@ -14,5 +14,8 @@
   "license": "GPL-v2",
   "bugs": {
     "url": "https://github.com/sja/sipgate-client/issues"
+  },
+  "dependencies": {
+    "xmlrpc": "~1.1.1"
   }
 }
