@@ -1,0 +1,18 @@
+{
+  "name": "sipgate-client",
+  "version": "0.0.0",
+  "description": "Sipgate API Client",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sja/sipgate-client.git"
+  },
+  "keywords": [
+    "sipgate"
+  ],
+  "author": "Sebastian Janzen <sebastian@janzen.it>",
+  "license": "GPL-v2",
+  "bugs": {
+    "url": "https://github.com/sja/sipgate-client/issues"
+  }
+}
