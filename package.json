@@ -1,7 +1,7 @@
 {
   "name": "sipgate-client",
-  "version": "0.0.0",
-  "description": "Sipgate API Client",
+  "version": "0.0.1",
+  "description": "Sipgate REST API Client",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -15,7 +15,16 @@
   "bugs": {
     "url": "https://github.com/sja/sipgate-client/issues"
   },
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script"
+  },
   "dependencies": {
-    "xmlrpc": "~1.1.1"
+    "coffee-script": "~1.6.3",
+    "node-rest-client": "~0.7.0"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3",
+    "mocha": "~1.14.0",
+    "expect.js": "~0.2.0"
   }
 }
